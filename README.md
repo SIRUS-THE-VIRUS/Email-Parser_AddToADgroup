@@ -37,6 +37,12 @@ Parameters need to be filled into the code as needed. Run the code by going into
 cd Email-Parser_AddToADgroup
 python3 AD-Email-parser.py
 ```
+## Note
+The program will run forever until it loses connection to the mail server or AD instance more than 3 times
+
+The program will listen to a specified mailbox for incoming requests to add a user to an AD group. 
+
+The option is there to integrate with Power Automate to send an email response notifying that the user has been added to AD group.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
